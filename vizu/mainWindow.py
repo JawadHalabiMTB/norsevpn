@@ -163,7 +163,7 @@ class mainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
         if type(par) is not QTreeWidgetItem:
             cnt = item.text(0)
-            cty = "none"
+            cty = ""
         else:
             cnt = par.text(0)
             cty = item.text(0)
